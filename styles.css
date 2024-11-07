@@ -20,4 +20,71 @@ body {
 
 img {
     display: block;
+    width: 100px;
+    
+    
 }
+
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image > img {
+    border: 6px solid green;
+    border-radius: 50%;
+    object-fit: contain;
+    width: auto;
+    
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-user-settings {
+    display: flex;
+    align-items: flex-start ;
+    justify-content: space-between;
+}
+
+.profile-stats ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-bio {
+    display: flex;
+}
+
+/* Start of main */
+
+.container {
+    margin-top: 50px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns:  170px 170px 170px;
+    grid-template-rows: 250px 250px 250px;
+    grid-gap: 4px;
+    justify-content: center;
+   
+}
+
+.gallery-item {
+   max-width: 100%;
+}
+
+.gallery-item-info {
+   width: fit-content;
+}
+
+.gallery-image {
+    object-fit: fill;
+    max-width: 100%;
+}
+
+
