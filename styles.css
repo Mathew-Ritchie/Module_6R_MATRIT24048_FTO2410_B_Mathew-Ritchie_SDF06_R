@@ -72,7 +72,7 @@ img {
     font-size: 14px;
 } 
 
-/* Start of main */
+/* Start of animal Gallery */
 
 .main-container {
     margin-top: 50px;
@@ -88,6 +88,9 @@ img {
     justify-content: center;
 }
     
+/* I have put the @media for responsiveness under the gallery grid styles, this was to make it easier as most 
+responsiveness is in the grid */
+
 @media screen and (max-width:900px) { 
     .gallery {display: grid;
     grid-template-columns: repeat(2 , 200px);
@@ -114,11 +117,6 @@ img {
         }
     
      .profile-user-settings { display: block;}
-    
-     /* .profile-bio { font-size: small;}
-    
-     .profile-stats { font-size: small;}  */
-
 }
      
 .gallery-item {
@@ -166,7 +164,7 @@ li {
 }
 
     
-
+/* Loading Circle at the bottom of the page */
 
 
 #loader-wrapper  {
